@@ -1,9 +1,10 @@
 import ReactDOM from "react-dom/client";
 import { Link } from "./components/Link";
+import { HeadingItalic } from "./components/HeadingItalic";
 
 const element = (
     <>
-        <h1>Nasza strona!</h1>
+        <HeadingItalic>Nasza nowa strona</HeadingItalic>
         <main>
             <Link text="sprawdź stronę kursu!" shouldOpenNewTab={true} />
             <p>
