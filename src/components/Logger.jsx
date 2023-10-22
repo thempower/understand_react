@@ -1,9 +1,7 @@
-export function HeadingItalic(props) {
-
+export function Logger(props) {
     const date = new Date();
     console.log(`Kompoment stworzony o ${date.getHours()} : ${date.getMinutes()}`)
-    
-    return <h1><i>{props.children}</i></h1>
-
+    return 
+    <>{props.children}
+    </>
 }
-
