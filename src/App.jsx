@@ -10,7 +10,7 @@ function App() {
     setIsButtonShown(false);
     setIsWarningShown(false);
     console.log("handle click");
-        //close warning
+        //close warningdd
   }
 
   function handleCloseWarningClick(){
